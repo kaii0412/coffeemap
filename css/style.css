@@ -98,9 +98,14 @@ html,body{
 	letter-spacing: 10px;
 }
 
+.recommendation{
+	display:flex;
+	flex-direction: row;
+}
 
 svg {
 	height: 150vh;
+	
   }
 
 path {
@@ -116,8 +121,7 @@ path:hover {
 
 
 
-
-.chiayi_country:hover .countryinfo_1{
+.chiayi_1:hover .countryinfo_1{
 	display: none;
 	width:300px;
 	height:180px;
