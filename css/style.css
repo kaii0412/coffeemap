@@ -112,15 +112,22 @@ path {
 path:hover {
 	fill: #f69f61;
 	transform: translate(-5px, -5px);
-	
   }
-.countryinfo{
-	display: hidden;
+
+
+
+
+.chiayi_country:hover .countryinfo_1{
+	display: none;
+	width:300px;
+	height:180px;
+	margin-right:0;
+	font-family: 'Noto Serif TC', serif;
+	font-size: 20px;
+	background-color: #5E656E;
+	color:white;
 }
 
-.countryinfo:hover{
-	display: none;
-}
 
  
 .footer{
