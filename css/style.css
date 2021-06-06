@@ -9,11 +9,10 @@ html,body{
 	background-repeat: no-repeat;
 	background-color:#d6c8ba;
 	
-	
 }
 
 
-    
+
 
 .nav-bar-left{
 	height: 200px;
@@ -91,11 +90,18 @@ html,body{
 
 .article{
 	margin: 60px;
+	padding-left: 80px;
+	padding-right: 80px;
 	font-family: 'Noto Serif TC', serif;
 	font-weight: bolder;
 	color: 	#594a47;
 	font-size: 20px;
 	letter-spacing: 10px;
+}
+
+.command{
+	font-size: larger;
+	color: #F57624;
 }
 
 .recommendation{
@@ -119,19 +125,378 @@ path:hover {
 	transform: translate(-5px, -5px);
   }
 
-
+.coffeeinformation{
+	display:flex;
+	flex-direction: column;
+}
+  
+.countryinfo_1{
+	display:none;
+	background-color: #5E656E;
+	opacity: 60%;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-top:10px;
+	padding-bottom:30px;
+	text-align:center;
+	display:table-cell;
+	vertical-align:middle;
+	color: azure;
+	line-height: 30px;
+	font-family: 'Noto Serif TC', serif;
+	font-weight:600;
+	font-size: 18px;
+	letter-spacing: 6px;
+}
 
 .chiayi_1:hover .countryinfo_1{
+	display:block;
+	fill: #f69f61;
+	transform: translate(-5px, -5px);
 	display: none;
 	width:300px;
 	height:180px;
 	margin-right:0;
-	font-family: 'Noto Serif TC', serif;
-	font-size: 20px;
+	
+  }
+
+.countryinfo_2{
 	background-color: #5E656E;
-	color:white;
+	opacity: 60%;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-top:10px;
+	padding-bottom:30px;
+	text-align:center;
+	display:table-cell;
+	vertical-align:middle;
+	color: azure;
+	line-height: 30px;
+	font-family: 'Noto Serif TC', serif;
+	font-weight:600;
+	font-size: 18px;
+	letter-spacing: 6px;		
 }
 
+.countryinfo_3{
+	background-color: #5E656E;
+	opacity: 60%;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-top:10px;
+	padding-bottom:30px;
+	text-align:center;
+	display:table-cell;
+	vertical-align:middle;
+	color: azure;
+	line-height: 30px;
+	font-family: 'Noto Serif TC', serif;
+	font-weight:600;
+	font-size: 18px;
+	letter-spacing: 6px;		
+}
+
+.countryinfo_4{
+	background-color: #5E656E;
+	opacity: 60%;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-top:10px;
+	padding-bottom:30px;
+	text-align:center;
+	display:table-cell;
+	vertical-align:middle;
+	color: azure;
+	line-height: 30px;
+	font-family: 'Noto Serif TC', serif;
+	font-weight:600;
+	font-size: 18px;
+	letter-spacing: 6px;		
+}
+
+.countryinfo_5{
+	background-color: #5E656E;
+	opacity: 60%;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-top:10px;
+	padding-bottom:30px;
+	text-align:center;
+	display:table-cell;
+	vertical-align:middle;
+	color: azure;
+	line-height: 30px;
+	font-family: 'Noto Serif TC', serif;
+	font-weight:600;
+	font-size: 18px;
+	letter-spacing: 6px;		
+}
+
+.countryinfo_6{
+	background-color: #5E656E;
+	opacity: 60%;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-top:10px;
+	padding-bottom:30px;
+	text-align:center;
+	display:table-cell;
+	vertical-align:middle;
+	color: azure;	
+	line-height: 30px;
+	font-family: 'Noto Serif TC', serif;
+	font-weight:600;
+	font-size: 18px;
+	letter-spacing: 6px;	
+}
+
+.countryinfo_7{
+	background-color: #5E656E;
+	opacity: 60%;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-top:10px;
+	padding-bottom:30px;
+	text-align:center;
+	display:table-cell;
+	vertical-align:middle;
+	color: azure;		
+	line-height: 30px;
+	font-family: 'Noto Serif TC', serif;
+	font-weight:600;
+	font-size: 18px;
+	letter-spacing: 6px;
+}
+
+.countryinfo_8{
+	background-color: #5E656E;
+	opacity: 60%;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-top:10px;
+	padding-bottom:30px;
+	text-align:center;
+	display:table-cell;
+	vertical-align:middle;
+	color: azure;	
+	line-height: 30px;
+	font-family: 'Noto Serif TC', serif;
+	font-weight:600;
+	font-size: 18px;
+	letter-spacing: 6px;	
+}
+
+.countryinfo_9{
+	background-color: #5E656E;
+	opacity: 60%;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-top:10px;
+	padding-bottom:30px;
+	text-align:center;
+	display:table-cell;
+	vertical-align:middle;
+	color: azure;	
+	line-height: 30px;
+	font-family: 'Noto Serif TC', serif;
+	font-weight:600;
+	font-size: 18px;
+	letter-spacing: 6px;	
+}
+
+.countryinfo_10{
+	background-color: #5E656E;
+	opacity: 60%;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-top:10px;
+	padding-bottom:30px;
+	text-align:center;
+	display:table-cell;
+	vertical-align:middle;
+	color: azure;
+	line-height: 30px;
+	font-family: 'Noto Serif TC', serif;
+	font-weight:600;
+	font-size: 18px;
+	letter-spacing: 6px;		
+}
+
+.countryinfo_11{
+	background-color: #5E656E;
+	opacity: 60%;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-top:10px;
+	padding-bottom:30px;
+	text-align:center;
+	display:table-cell;
+	vertical-align:middle;
+	color: azure;
+	line-height: 30px;
+	font-family: 'Noto Serif TC', serif;
+	font-weight:600;
+	font-size: 18px;
+	letter-spacing: 6px;		
+}
+
+.countryinfo_12{
+	background-color: #5E656E;
+	opacity: 60%;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-top:10px;
+	padding-bottom:30px;
+	text-align:center;
+	display:table-cell;
+	vertical-align:middle;
+	color: azure;	
+	line-height: 30px;
+	font-family: 'Noto Serif TC', serif;
+	font-weight:600;
+	font-size: 18px;
+	letter-spacing: 6px;	
+}
+
+.countryinfo_13{
+	background-color: #5E656E;
+	opacity: 60%;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-top:10px;
+	padding-bottom:30px;
+	text-align:center;
+	display:table-cell;
+	vertical-align:middle;
+	color: azure;		
+	line-height: 30px;
+	font-family: 'Noto Serif TC', serif;
+	font-weight:600;
+	font-size: 18px;
+	letter-spacing: 6px;
+}
+
+.countryinfo_14{
+	background-color: #5E656E;
+	opacity: 60%;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-top:10px;
+	padding-bottom:30px;
+	text-align:center;
+	display:table-cell;
+	vertical-align:middle;
+	color: azure;
+	line-height: 30px;
+	font-family: 'Noto Serif TC', serif;
+	font-weight:600;
+	font-size: 18px;
+	letter-spacing: 6px;		
+}
+
+.countryinfo_15{
+	background-color: #5E656E;
+	opacity: 60%;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-top:10px;
+	padding-bottom:30px;
+	text-align:center;
+	display:table-cell;
+	vertical-align:middle;
+	color: azure;	
+	line-height: 30px;
+	font-family: 'Noto Serif TC', serif;
+	font-weight:600;
+	font-size: 18px;
+	letter-spacing: 6px;	
+}
+
+.countryinfo_16{
+	background-color: #5E656E;
+	opacity: 60%;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-top:10px;
+	padding-bottom:30px;
+	text-align:center;
+	display:table-cell;
+	vertical-align:middle;
+	color: azure;	
+	line-height: 30px;
+	font-family: 'Noto Serif TC', serif;
+	font-weight:600;
+	font-size: 18px;
+	letter-spacing: 6px;	
+}
+
+.countryinfo_17{
+	background-color: #5E656E;
+	opacity: 60%;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-top:10px;
+	padding-bottom:30px;
+	text-align:center;
+	display:table-cell;
+	vertical-align:middle;
+	color: azure;		
+	line-height: 30px;
+	font-family: 'Noto Serif TC', serif;
+	font-weight:600;
+	font-size: 18px;
+	letter-spacing: 6px;
+}
+
+.countryinfo_18{
+	background-color: #5E656E;
+	opacity: 60%;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-top:10px;
+	padding-bottom:30px;
+	text-align:center;
+	display:table-cell;
+	vertical-align:middle;
+	color: azure;	
+	line-height: 30px;
+	font-family: 'Noto Serif TC', serif;
+	font-weight:600;
+	font-size: 18px;
+	letter-spacing: 6px;	
+}
+
+.countryinfo_19{
+	background-color: #5E656E;
+	opacity: 60%;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-top:10px;
+	padding-bottom:30px;
+	text-align:center;
+	display:table-cell;
+	vertical-align:middle;
+	color: azure;		
+	line-height: 30px;
+	font-family: 'Noto Serif TC', serif;
+	font-weight:600;
+	font-size: 18px;
+	letter-spacing: 6px;
+}
+
+.icon{
+	z-index: 10;          
+	   position: fixed; 
+	   bottom: 10px;
+	   display: flex;
+	   justify-content: flex-end;
+	   margin-right: 30px;
+}
+   
+.icon img{
+	width: 7%;
+	cursor: pointer;
+}
 
  
 .footer{
