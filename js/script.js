@@ -6,11 +6,17 @@ $("path").mouseenter(function(e){
 });
 
 
-$(function() {
-  $('chiayi_1.popper').hover(function() {
-      $('#countryinfo_1').toggle();
-  });
-});
+
+
+
+$("#chiayi_1").mouseenter(function(e){
+  $(".coffeeinfo_1").css("display","none");
+})
+
+$("#chiayi_1").mouseleave(function(e){
+  $(".coffeeinfo_1").css("display","block");
+})
+
 
 $(document).ready(function(){
   $('html,body').on("scroll", function() { 
